@@ -92,38 +92,6 @@ while True:
             open("gmail_alert.py", "r")
             print("Intruder has been detected")
 
-#import time;
-
-#localtime = time.localtime(time.time())
-#print ("Local current time :"), localtime
-###################################### implement alert via gmail
-#gmail_user = 'testnetworkmonitor@gmail.com'  
-#gmail_password = 'testnetworkmonitortestnetworkmonitor'
-
-#sent_from = gmail_user  
-#to = ['justkeepcool10@gmail.com', 'faisalsmkaf@gmail.com']
-#subject = 'Faisal, u got intruder in your room'  
-#body = 'Get rid of them up?\n\n- You'
-
-#email_text = """\  
-#From: %s  
-#To: %s  
-#Subject: %s
-
-#%s
-#""" % (sent_from, ", ".join(to), subject, body)
-
-#try:  
-#    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-#    server.ehlo()
-#    server.login(gmail_user, gmail_password)
-#    server.sendmail(sent_from, to, email_text)
-#    server.close()
-
-#    print ('Email sent!')
-#except:  
-#    print ('Something went wrong...')
-#########################################################################
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 0.5, (255, 255, 255), 1)
 
     cv2.imshow('Private Space Intrusion Detection System', frame)
