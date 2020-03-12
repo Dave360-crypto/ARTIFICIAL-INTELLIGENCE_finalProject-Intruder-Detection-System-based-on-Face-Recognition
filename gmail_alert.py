@@ -1,10 +1,10 @@
 import smtplib
 
-gmail_user = 'testnetworkmonitor@gmail.com'  
-gmail_password = 'testnetworkmonitortestnetworkmonitor'
+gmail_user = 'user@gmail.com'  
+gmail_password = 'userpassword'
 
 sent_from = gmail_user  
-to = ['justkeepcool10@gmail.com', 'faisalsmkaf@gmail.com']  
+to = ['receiver1@gmail.com', 'receiver2@gmail.com']  
 subject = 'Intruder detect'  
 body = 'Hey, whats up?\n\n- You'
 
